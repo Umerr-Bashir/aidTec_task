@@ -1,0 +1,589 @@
+/* Body */
+body{
+    background-color: white;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*  Navbar  */
+
+.navbar{
+    background-color: white;
+}
+.logo a {
+    font-size: 29px;
+    font-weight: 800;
+    font-family: 'Cinzel', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.navdiv {
+    padding:8px;
+    display: flex;
+    align-items: center;
+}
+
+.ul-1 {
+    list-style-type: none;
+    margin: auto;
+}
+.ul-1 li {
+    text-decoration: none;
+    display: inline;
+    margin:5px; 
+}
+.ul-1 a {
+    font-weight: 600;
+    font-family:sans-serif;
+    padding: 20px;
+}
+.ul-2 a {
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.ul-2 {
+    list-style-type: none;
+    margin-left: auto;
+    margin: 15px;
+    padding:5px;
+}
+.ul-2 li{
+    text-decoration: none;
+    display: inline;
+    margin:15px;
+}
+.fa-magnifying-glass {
+    color: black;
+}
+
+/* Banner  */
+
+.banner {
+   position:relative;
+}
+.img-text {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+}
+.img-text-h3 {
+    color:white;
+    font-size: 45px;
+    font-family: 'Lobster';
+    font-weight: 800;
+}
+.img-text-h1 {
+    color: white;
+    margin-top: -30px;
+    font-size: 45px;
+    font-family: 'Lobster';
+    font-weight: 800;
+}
+.img-text-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:600;
+    cursor: pointer;
+}
+.img-text-button:hover {
+    background-color: white;
+    opacity:0.8;
+    color:black;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Top-Sales  */
+
+.div-1{
+    text-align:center;
+    font-size:21px;
+    font-weight:500;
+    padding:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 0px;
+    padding: 10px 160px;
+}
+
+.grid-container > div {
+
+  padding: 10px 0px;
+  font-size: 0px;
+}
+.container p {
+    padding: 0 8px;
+    font-size: 17px;
+    color: red;
+}
+.container h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1px 8px;
+    font-size: 14px;
+}
+
+.card {
+    width: 68%;
+    border-radius: 5px;
+    margin: auto;
+}
+.responsive-sale {
+    border-radius:5px;
+    width: 100%;
+    height: auto;
+}
+
+/* Banner 2 */
+
+.banner-2 {
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 70%;
+    margin: auto;
+}
+.img-text-2 {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.img-text2-h4 {
+    color:black;
+    font-size: 17px;
+    font-weight: 800;
+}
+.img-text2-h1 {
+    color: black;
+    margin-top: -30px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.img-text2-button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    margin-top: 0px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight:700;
+    cursor: pointer;
+}
+.img-text2-button:hover {
+    background-color: transparent;
+    opacity:0.8;
+    color:black;
+}
+
+/* All Products */
+
+.all-product {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.all-product h3{
+    font-size:23px;
+    font-weight:500;
+    padding:8px 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ul-3 {
+    list-style-type: none;
+    margin-left:auto;
+}
+.ul-3 li {
+
+    display: inline;
+    
+}
+.ul-3 a{
+    font-size:15px;
+    font-weight:400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 7px;
+    padding: 8px 19px;
+    border-radius: 21px;
+    transition:0.2s;
+ }
+ .ul-3 a:hover{
+     background-color:black;
+     color:white;
+ }
+ .all-anchor{
+     background-color:black;
+     color:white;
+ }
+
+ /* More */
+
+.more {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+button {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 21px;
+}
+.more-anchor {
+    font-weight: 400;
+    margin: 7px;
+    padding: 8px 19px;
+    margin-left:auto;
+    transition: 0.2s;
+}
+button:hover {
+background-color: black;
+color: white;
+}
+
+ /* Footer */
+
+.footer {
+    display:flex;
+    margin:10px 0;
+    background-color: black;
+}
+.footer-div {
+    text-align:center;
+    margin: auto;
+    padding: 50px 0;
+    width: 70%;
+}
+.footer-div p{
+    color:white;
+}
+.footer-logo a {
+    color:white;
+    font-size: 29px;
+    font-weight: 800;
+    font-family: 'Cinzel', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.ul-5 {
+    padding-left: 0px;
+}
+.ul-5 li {
+    display: inline;
+}
+.ul-5 a{
+    font-family:sans-serif;
+    font-size:17px;
+    font-weight:600;
+    padding:7px;
+    list-style-type:none;
+    color:white;
+}
+.ul-5 a:hover{
+    color:#c4c1c1;
+}
+.r-sign{
+    color:white;
+    font-size:20px;
+}
+
+/* Social Links */
+
+.ul-6{
+    padding-left: 0px;
+}
+.ul-6 li {
+    font-size: 20px;
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+.ul-6 a{
+    display:inline;
+    padding:10px;
+}
+.facebook {
+    background-color: #1C1CAF;
+    border-radius: 2px;
+    padding: 10px 11px;
+    color: white;
+}
+.facebook:hover{
+    background-color:#1d1d7f;
+    transition:0.2s;
+}
+.twitter {
+    background-color: #00acee;
+    border-radius: 2px;
+    padding: 10px 11px;
+    color: white;
+}
+.twitter:hover {
+    background-color: #0c749c;
+    transition:0.2s;
+}
+/* Picked from https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    border-radius: 2px;
+    padding: 10px 11px;
+    color: white;
+}
+.instagram:hover {
+    background: #974e00;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #835423 0%,#e6683c 25%,#930118 50%,#64203b 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #9e5100 0%,#e6683c 25%,#b01029 50%,#8e0038 75%,#990068 100%);
+    transition:0.2s;
+}
+.pinterest {
+    background-color: #d00000;
+    border-radius: 2px;
+    padding: 10px 11px;
+    color:white;
+}
+.pinterest:hover{
+    background-color:#9a040a;
+    transition:0.2s;
+}
+
+
+
+
+
+
+
+
+/*  Media-Queries  */
+
+@media only screen and (min-width:72px) and (max-width:435px) {
+    .logo a {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .ul-2 {
+        display:none;
+    }
+    .ul-1 a {
+        font-size:14px;
+        font-weight: 500;
+        padding: 0px;
+    }
+    .ul-1 {
+        list-style-type: none;
+        margin-left: -20px;
+    }
+    .img-text-h3 {
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-h1 {
+        font-size: 25px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-button {
+        font-size: 9px;
+        padding: 8px 19px;
+    }
+    .responsive {
+        width: 100%;
+        height: 472px;
+    }
+
+    .grid-container {
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto;
+        gap: 0px;
+        padding: 10px 0px;
+    }
+    .banner-2 {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    .img-text-2 {
+        top: 6%;
+    }
+
+    .img-text2-h4 {
+        font-size: 10px;
+    }
+
+    .img-text2-h1 {
+        font-size: 40px;
+    }
+
+    .img-text2-button {
+        font-size: 10px;
+    }
+    .all-product {
+        width: 100%;
+    }
+
+    .ul-3 a {
+        font-size: 10px;
+        margin: 5px;
+        padding: 4px 2px;
+    }
+
+    .all-product h3 {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 8px 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ul-4 a {
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (min-width: 435px) and (max-width: 768px) {
+    .logo a {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .ul-2 {
+        padding:0px;
+        margin:0px;
+    }
+    .ul-2 li {
+        margin:5px;
+    }
+    .ul-1 a {
+        font-weight: 600;
+        padding: 0px;
+    }
+    .ul-1 {
+        list-style-type: none;
+    }
+    .img-text-h3 {
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-h1 {
+        font-size: 35px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-button {
+        font-size: 12px;
+    }
+    .responsive {
+        width: 100%;
+        height: 525px;
+    }
+
+    .grid-container {
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto;
+        gap: 0px;
+        padding: 10px 40px;
+    }
+    .banner-2 {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    .img-text2-h1 {
+        font-size: 38px;
+    }
+
+    .img-text2-button {
+        font-size: 10px;
+    }
+    .all-product {
+        width: 90%;
+    }
+    .ul-3 a {
+        font-size:12px;
+        margin: 2px;
+        padding: 4px 8px;
+    }
+    .all-product h3 {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 8px 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ul-4 a {
+        font-size: 11px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .img-text-h3 {
+        font-size: 30px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-h1 {
+        font-size: 30px;
+        font-family: 'Lobster';
+        font-weight: 800;
+    }
+    .img-text-button {
+        font-size: 12px;
+    }
+
+    .grid-container {
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto auto;
+        gap: 0px;
+        padding: 10px 100px;
+    }
+    .banner-2 {
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+    .img-text-2 {
+        top: 3%;
+    }
+    .img-text2-h4 {
+        font-size: 13px;
+    }
+    .img-text2-h1 {
+        font-size: 44px;
+    }
+    .img-text2-button {
+        font-size: 12px;
+    }
+    .ul-3 a {
+        margin: 2px;
+        padding: 8px 15px;
+    }
+    
+}
+
+
+
+
+
+
+
